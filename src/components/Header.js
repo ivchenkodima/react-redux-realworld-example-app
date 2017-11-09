@@ -87,6 +87,7 @@ class Header extends React.Component {
       <nav className="navbar navbar-light">
         <div className="container">
 
+            <button onClick={()=>alert('ho-ho-hodor')}>Ho-Ho-Hodor</button>
           <Link to="/" className="navbar-brand">
             {this.props.appName.toLowerCase()}
           </Link>
