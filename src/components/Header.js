@@ -6,11 +6,7 @@ const LoggedOutView = props => {
     return (
       <ul className="nav navbar-nav pull-xs-right">
 
-        <li className="nav-item">
-          <Link to="/" className="nav-link">
-            Home
-          </Link>
-        </li>
+        
 
         <li className="nav-item">
           <Link to="/login" className="nav-link">
