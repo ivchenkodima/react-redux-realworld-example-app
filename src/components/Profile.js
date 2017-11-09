@@ -136,6 +136,39 @@ class Profile extends React.Component {
                   follow={this.props.onFollow}
                   unfollow={this.props.onUnfollow}
                   />
+                   <img src={profile.image} className="user-img" alt={profile.username} />
+                <h4>{profile.username}</h4>
+                <p>{profile.bio}</p>
+
+                <EditProfileSettings isUser={isUser} />
+                <FollowUserButton
+                  isUser={isUser}
+                  user={profile}
+                  follow={this.props.onFollow}
+                  unfollow={this.props.onUnfollow}
+                  />
+                   <img src={profile.image} className="user-img" alt={profile.username} />
+                <h4>{profile.username}</h4>
+                <p>{profile.bio}</p>
+
+                <EditProfileSettings isUser={isUser} />
+                <FollowUserButton
+                  isUser={isUser}
+                  user={profile}
+                  follow={this.props.onFollow}
+                  unfollow={this.props.onUnfollow}
+                  />
+                   <img src={profile.image} className="user-img" alt={profile.username} />
+                <h4>{profile.username}</h4>
+                <p>{profile.bio}</p>
+
+                <EditProfileSettings isUser={isUser} />
+                <FollowUserButton
+                  isUser={isUser}
+                  user={profile}
+                  follow={this.props.onFollow}
+                  unfollow={this.props.onUnfollow}
+                  />
 
               </div>
             </div>
