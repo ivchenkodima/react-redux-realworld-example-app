@@ -109,6 +109,7 @@ class Header extends React.Component {
             <p>HELLO WORLD</p>
 
             <button onClick={()=>alert('ho-ho-hodor')}>Ho-Ho-Hodor</button>
+            <a href="http://www.google.com">google.com</a>
           <Link to="/" className="navbar-brand">
             {this.props.appName.toLowerCase()}
           </Link>
