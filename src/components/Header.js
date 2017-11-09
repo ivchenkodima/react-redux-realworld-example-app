@@ -5,8 +5,44 @@ const LoggedOutView = props => {
   if (!props.currentUser) {
     return (
       <ul className="nav navbar-nav pull-xs-right">
+          <p>boooooooooooooo</p>
+          <p>boooooooooooooo</p>
+          <p>lalalala</p>
+        <li className="nav-item">
+          <Link to="/" className="nav-link">
+            Home
+          </Link>
+        </li>
 
-        
+          <li className="nav-item">
+              <Link to="/login" className="nav-link">
+                  Sign in
+              </Link>
+          </li>
+
+
+          <li className="nav-item">
+              <Link to="/login" className="nav-link">
+                  LOL LOL LOL
+              </Link>
+          </li>
+          <li className="nav-item">
+              <Link to="/xxx" className="nav-link">
+              XXX
+            </Link>
+          </li>
+
+        <li className="nav-item">
+          <Link to="/" className="nav-link">
+            Dou
+          </Link>
+        </li>
+
+        <li className="nav-item">
+          <Link to="/" className="nav-link">
+            Medium
+          </Link>
+        </li>
 
         <li className="nav-item">
           <Link to="/login" className="nav-link">
@@ -14,6 +50,7 @@ const LoggedOutView = props => {
           </Link>
         </li>
 
+        <li>fdbadna</li>
         <li className="nav-item">
           <Link to="/register" className="nav-link">
             Sign up
@@ -70,7 +107,9 @@ class Header extends React.Component {
     return (
       <nav className="navbar navbar-light">
         <div className="container">
+            <p>HELLO WORLD</p>
 
+            <button onClick={()=>alert('ho-ho-hodor')}>Ho-Ho-Hodor</button>
           <Link to="/" className="navbar-brand">
             {this.props.appName.toLowerCase()}
           </Link>

@@ -55,7 +55,26 @@ class Article extends React.Component {
         <div className="container page">
 
           <div className="row article-content">
-            <div className="col-xs-12">
+            <div className="col-xs-6">
+
+              <div dangerouslySetInnerHTML={markup}></div>
+
+              <ul className="tag-list">
+                {
+                  this.props.article.tagList.map(tag => {
+                    return (
+                      <li
+                        className="tag-default tag-pill tag-outline"
+                        key={tag}>
+                        {tag}
+                      </li>
+                    );
+                  })
+                }
+              </ul>
+
+            </div>
+            <div className="col-xs-6">
 
               <div dangerouslySetInnerHTML={markup}></div>
 
