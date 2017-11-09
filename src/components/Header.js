@@ -13,6 +13,18 @@ const LoggedOutView = props => {
         </li>
 
         <li className="nav-item">
+          <Link to="/" className="nav-link">
+            Dou
+          </Link>
+        </li>
+
+        <li className="nav-item">
+          <Link to="/" className="nav-link">
+            Medium
+          </Link>
+        </li>
+
+        <li className="nav-item">
           <Link to="/login" className="nav-link">
             Sign in
           </Link>
