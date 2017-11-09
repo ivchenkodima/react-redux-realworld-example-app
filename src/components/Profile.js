@@ -55,11 +55,6 @@ const FollowUserButton = props => {
   );
 };
 
-const mapStateToProps = state => ({
-  ...state.articleList,
-  currentUser: state.common.currentUser,
-  profile: state.profile
-});
 
 const mapDispatchToProps = dispatch => ({
   onFollow: username => dispatch({
