@@ -103,6 +103,7 @@ class Header extends React.Component {
     return (
       <nav className="navbar navbar-light">
         <div className="container">
+            <p>HELLO WORLD</p>
 
             <button onClick={()=>alert('ho-ho-hodor')}>Ho-Ho-Hodor</button>
           <Link to="/" className="navbar-brand">
