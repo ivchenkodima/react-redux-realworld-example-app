@@ -6,7 +6,7 @@ const LoggedOutView = props => {
     return (
       <ul className="nav navbar-nav pull-xs-right">
           <p>boooooooooooooo</p>
-          <p>lalalala</p>
+          <p>bla bla</p>
         <li className="nav-item">
           <Link to="/" className="nav-link">
             Home
@@ -109,6 +109,7 @@ class Header extends React.Component {
             <p>HELLO WORLD</p>
 
             <button onClick={()=>alert('ho-ho-hodor')}>Ho-Ho-Hodor</button>
+            <a href="http://www.google.com">google.com</a>
           <Link to="/" className="navbar-brand">
             {this.props.appName.toLowerCase()}
           </Link>
