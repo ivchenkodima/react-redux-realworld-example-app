@@ -56,6 +56,13 @@ const ArticlePreview = props => {
         </div>
       </div>
 
+      <div className="pull-xs-right">
+        <button className={favoriteButtonClass} onClick={handleClick}>
+          <i className="ion-heart"></i> {article.favoritesCount}
+        </button>
+      </div>
+    </div>
+
       <Link to={`/article/${article.slug}`} className="preview-link">
         <h1>{article.title}</h1>
         <p>{article.description}</p>
